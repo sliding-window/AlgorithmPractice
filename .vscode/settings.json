@@ -54,6 +54,11 @@
         "cfenv": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
+        "core": "cpp",
+        "csignal": "cpp",
+        "list": "cpp",
+        "numeric": "cpp",
+        "typeindex": "cpp"
     },
     "editor.rulers": [
         {

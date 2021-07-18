@@ -11,7 +11,8 @@ endif()
 find_package(GTest REQUIRED)
 message("-- GTest directory: " ${GTEST_INCLUDE_DIRS})
 message("-- GTest library: " ${GTEST_BOTH_LIBRARIES})
-include_directories(${GTEST_INCLUDE_DIRS})
+
+include_directories(${GTEST_INCLUDE_DIRS} /usr/local/include/eigen3)
 
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib)

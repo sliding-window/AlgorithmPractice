@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/local/include/eigen3",
+                "/usr/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

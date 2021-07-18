@@ -1,0 +1,3 @@
+
+add_executable(euler_composition euler_composition.cpp)
+add_executable(matrix_representation matrix_representation.cpp)
